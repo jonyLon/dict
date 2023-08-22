@@ -83,7 +83,7 @@ while True:
     fraction2 = input("Enter second fraction(numerator/denominator): ").split("/")
     firstFraction = {'numerator': fraction1[0],'denominator':fraction1[1]}
     secondFraction = {'numerator': fraction2[0],'denominator':fraction2[1]}
-    option = int(input("1 - Addition\n2 - Subtraction\n3 - Division\n4 - Multiplication\n0 - Exit\nChoose option: "))
+    option = int(input("1 - Addition\n2 - Subtraction\n3 - Multiplication\n4 - Division\n0 - Exit\nChoose option: "))
     match option:
       case 0:
         break
